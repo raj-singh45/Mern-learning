@@ -1,0 +1,6 @@
+transform property
+perspective use in parent for 3d transform
+transform:scale(2) ;
+transformX/Y :(200px ,200px)
+transform:rotatex/y(20deg)
+

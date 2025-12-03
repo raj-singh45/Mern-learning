@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+.container{
+    position:relative ; 
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    position:absolute ;
+    background: violet;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes moving {
+    /* from{
+        background: violet;
+        top:10px ;
+        left:10px ;B
+    
+
+    }
+    to{
+        background: #a40505;
+        top:10px ; 
+        left:700px ;
+    } */
+        0%{
+        background: violet;
+        top:10px ;
+        left:10px ;
+    
+
+    }
+    25%{
+        background: #a40505;
+        top:10px ; 
+        left:700px ;
+    }
+        50%{
+        background: #05a415;
+        top:500px ; 
+        left:700px ;
+    }
+     75%{
+        background: #05a415;
+        top:500px ; 
+        left:10px ;
+    }
+
+     100%{
+        background: rgb(153, 130, 238);
+        top:10px ;
+        left:10px ;
+
+    }
+    
+    
+}
