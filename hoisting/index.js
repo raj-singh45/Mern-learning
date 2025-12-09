@@ -1,3 +1,9 @@
+// console.log(a);
+// console.log(b); 
+// let a = 10;
+// const b  = 20;    
+
+
 meet();
 function meet() {
   console.log("Let's meet!");
@@ -24,3 +30,7 @@ function meet() {
 // greet();
 //memory allocation phase me greet ko memory milti h empty value k sath
 // execution phase me greet me function assign hone k bad greet ko call krne pr "Let's meet!" print hoga
+
+
+
+

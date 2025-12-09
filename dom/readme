@@ -1,0 +1,30 @@
+the dom is a way to represent a web page so that programs like js can interact with it 
+
+A browser takes your HTML documenmt and turns it into the DOM
+
+
+//accessing by CSS selectors
+   i: Single element 
+   Method: documentt.querySelector(selector)
+   Description: Return the first element matching the specified CSS selector
+
+  ii: Multiple Elements:
+  Method : document,querySelectorAll(selector)
+  Description: Return a static nodelist of all elements matching the specified CSS selector.
+
+
+  iii: //Accesing by tag name 
+  Method :  document.getElementsByTagName(tagName) ;
+  Description : Return a live Html collection of all elemens with the specified tag name (eg.   ,div ,a , p ..etc)
+
+  iv: Accesing using relationship 
+  a. Parent node 
+  Method: element.parentNode or element.parentElement
+  Description: Access the immediate parewnt of an element . 
+
+  b. Child Node 
+  Method: element.childNode (include textNode) or element.children(only element nodes)
+  Description: Acces all child nodes of an element . 
+  c. sibling Nodes
+
+ 
